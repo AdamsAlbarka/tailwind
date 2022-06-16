@@ -9,17 +9,64 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>TAILWIND PORTFOLIO</title>
 </head>
-<body>
+<body class="font-nunito">
 <!-- Intro Section -->
 <div>
-    <h1 class="text-3xl text-red-500 sm:text-blue-700">HELLO WORLD</h1>
+    <h1 class="h-1/2 lg:h-screen bg-gradient-to-t from-indigo-300"></h1>
     <!-- Navbar -->
-    <nav></nav>
+    <nav class="w-full fixed top-0 bg-white">
+        <div class="container mx-auto items-center py-5 flex justify-between">
+            <div class="flex items-center gap-2">
+                <img class="w-8" src="./img/logo.png" alt="logo">
+                <span class="text-2xl font-bold text-indigo-900" >Deutsch Lebenslauf </span>
+            </div>
+            <ul class="hidden md:flex space-x-10 text-gray-600 font-bold text-sm uppercase">
+                <li class="hover:text-gray-500">
+                    <a href="#">Home</a>
+                </li>
+                <li class="hover:text-gray-500">
+                    <a href="#">Uber mich</a>
+                </li>
+                <li class="hover:text-gray-500">
+                    <a href="#">Dienst</a>
+                </li>
+                <li class="hover:text-gray-500">
+                    <a href="#">Arbeit</a>
+                </li>
+                <li class="hover:text-gray-500">
+                    <a href="#">Telefon</a>
+                </li>
+            </ul>
+            <img src="./img/moon.png" class="hidden w-5 cursor-pointer md:block "  alt="" />
+            <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20 ">
+                <div class="w-6 h-0.5 bg-black"></div>
+                <div class="w-6 h-0.5 bg-black"></div>
+                <div class="w-6 h-0.5 bg-black"></div>
+            </div>
+            <ul id="menu" class="hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center">
+                <li class="hover:text-gray-500">
+                    <a href="#">Home</a>
+                </li>
+                <li class="hover:text-gray-500">
+                    <a href="#">Uber mich</a>
+                </li>
+                <li class="hover:text-gray-500">
+                    <a href="#">Dienst</a>
+                </li>
+                <li class="hover:text-gray-500">
+                    <a href="#">Arbeit</a>
+                </li>
+                <li class="hover:text-gray-500">
+                    <a href="#">Telefon</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <!-- Intro Content -->
     <div></div>
 </div>
 <!-- Intro Section -->
-
+<script src="./app.js" ></script>
 </body>
 </html> 
