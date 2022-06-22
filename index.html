@@ -16,7 +16,7 @@
     <!-- Navbar -->
     <nav class="w-full fixed top-0 bg-white z-10">
         <div class="container mx-auto items-center py-5 flex justify-between">
-            <div class="flex items-center gap-2">
+            <div class="flex items-center gap-2 mx-2">
                 <img class="w-8" src="./img/logo.png" alt="logo">
                 <span class="text-2xl font-bold text-indigo-900" >Deutsch Lebenslauf </span>
             </div>
@@ -25,20 +25,20 @@
                     <a href="#">Home</a>
                 </li>
                 <li class="hover:text-gray-500">
-                    <a href="#">Uber mich</a>
+                    <a href="#about">Uber mich</a>
                 </li>
                 <li class="hover:text-gray-500">
-                    <a href="#">Dienst</a>
+                    <a href="#services">Dienst</a>
                 </li>
                 <li class="hover:text-gray-500">
-                    <a href="#">Arbeit</a>
+                    <a href="#work">Arbeit</a>
                 </li>
                 <li class="hover:text-gray-500">
-                    <a href="#">Telefon</a>
+                    <a href="#contact">Telefon</a>
                 </li>
             </ul>
             <img src="./img/moon.png" class="hidden w-5 cursor-pointer md:block "  alt="" />
-            <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20 ">
+            <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20 mx-2 ">
                 <div class="w-6 h-0.5 bg-black"></div>
                 <div class="w-6 h-0.5 bg-black"></div>
                 <div class="w-6 h-0.5 bg-black"></div>
@@ -48,16 +48,16 @@
                     <a href="#">Home</a>
                 </li>
                 <li class="hover:text-gray-500">
-                    <a href="#">Uber mich</a>
+                    <a id="hLink" href="#about">Uber mich</a>
                 </li>
                 <li class="hover:text-gray-500">
-                    <a href="#">Dienst</a>
+                    <a id="hLink" href="#services">Dienst</a>
                 </li>
                 <li class="hover:text-gray-500">
-                    <a href="#">Arbeit</a>
+                    <a id="hLink" href="#work">Arbeit</a>
                 </li>
                 <li class="hover:text-gray-500">
-                    <a href="#">Telefon</a>
+                    <a id="hLink" href="#contact">Telefon</a>
                 </li>
             </ul>
         </div>
@@ -82,7 +82,7 @@
     </div>
 </div>
 <!-- About -->
-<div class="px-10">
+<div id="about" class="px-10">
     <div class="container mx-auto py-40 flex flex-col-reverse lg:flex-row items-center gap-20">
         <!-- Left -->
         <div class="relative">
@@ -117,7 +117,7 @@
 <!-- Intro Section -->
 <!-- Section -->
 <div>
-    <div class="container mx-auto">
+    <div id="services" class="container mx-auto">
     <!-- top -->
         <div class="my-auto flex flex-col gap-3 items-center">
             <h1 class="text-indigo-600 font-bold text-3xl"> SERVICES </h1>
@@ -129,7 +129,7 @@
     <!-- bottom -->
         <div class="p-5 sm:p-0 flex flex-wrap justify-between">
             <!-- Card -->
-            <div class="md:4/12 sm:mx-auto shadow-2xl rounded-xl p-5 my-3 md:my-10 flex flex-col gap-3">
+            <div class="lg:w-4/12 md:w-6/12 sm:mx-auto shadow-2xl rounded-xl p-5 my-3 md:my-10 flex flex-col ">
                 <img src="./img/icon.png" class="w-10" alt="icon">
                 <h1 class="font-medium text-lg">UI/UX Design</h1>
                 <p class="text-gray-400">This free online course covers effective<br />
@@ -137,7 +137,7 @@
                 <p class="text-indigo-600 font-semibold text-sm">Read More</p>   
             </div>
              <!-- Card -->
-             <div class="md:4/12 sm:mx-auto shadow-2xl rounded-xl p-5 my-3 md:my-10 flex flex-col gap-3">
+             <div class="lg:w-4/12 md:w-6/12 sm:mx-auto shadow-2xl rounded-xl p-5 my-3 md:my-10 flex flex-col">
                 <img src="./img/icon.png" class="w-10" alt="icon">
                 <h1 class="font-medium text-lg">UI/UX Design</h1>
                 <p class="text-gray-400">This free online course covers effective<br />
@@ -145,7 +145,7 @@
                 <p class="text-indigo-600 font-semibold text-sm">Read More</p>   
             </div>
              <!-- Card -->
-             <div class="md:4/12 sm:mx-auto shadow-xl rounded-xl p-5 my-3 md:my-10 flex flex-col gap-3">
+             <div class="lg:w-4/12 md:w-6/12 sm:mx-auto shadow-xl rounded-xl p-5 my-3 md:my-10 flex flex-col">
                 <img src="./img/icon.png" class="w-10" alt="icon">
                 <h1 class="font-medium text-lg">UI/UX Design</h1>
                 <p class="text-gray-400">This free online course covers effective<br />
@@ -153,7 +153,7 @@
                 <p class="text-indigo-600 font-semibold text-sm">Read More</p>   
             </div>
              <!-- Card -->
-             <div class="md:4/12 sm:mx-auto shadow-xl rounded-xl p-5 my-3 md:my-10 flex flex-col gap-3">
+             <div class="lg:w-4/12 md:w-6/12 sm:mx-auto shadow-xl rounded-xl p-5 my-3 md:my-10 flex flex-col gap-3">
                 <img src="./img/icon.png" class="w-10" alt="icon">
                 <h1 class="font-medium text-lg">UI/UX Design</h1>
                 <p class="text-gray-400">This free online course covers effective<br />
@@ -161,15 +161,15 @@
                 <p class="text-indigo-600 font-semibold text-sm">Read More</p>   
             </div>
              <!-- Card -->
-             <div class="md:4/12 sm:mx-auto shadow-xl rounded-xl p-5 my-3 md:my-10 flex flex-col gap-3">
+             <div class="lg:w-4/12 md:w-6/12 sm:mx-auto shadow-xl rounded-xl p-5 my-3 md:my-10 flex flex-col gap-3">
                 <img src="./img/icon.png" class="w-10" alt="icon">
                 <h1 class="font-medium text-lg">UI/UX Design</h1>
                 <p class="text-gray-400">This free online course covers effective<br />
                     communication techniques for teachers and trainers</p>
                 <p class="text-indigo-600 font-semibold text-sm">Read More</p>   
             </div>
-             <!-- Card -->
-             <div class="md:4/12 sm:mx-auto  shadow-xl rounded-xl p-5 my-3 md:my-10 flex flex-col gap-3">
+            <!-- Card -->
+              <div class="lg:w-4/12 md:w-6/12 sm:mx-auto shadow-xl rounded-xl p-5 my-3 md:my-10 flex flex-col gap-3">
                 <img src="./img/icon.png" class="w-10" alt="icon">
                 <h1 class="font-medium text-lg">UI/UX Design</h1>
                 <p class="text-gray-400">This free online course covers effective<br />
@@ -180,20 +180,90 @@
     </div>
 </div>
 
-<!-- Works & Projects -->
+<!-- Portfolio -->
 <div>
-    <div class="container mx-auto">
-        <!-- top -->
-            <div class="my-auto flex flex-col gap-3 items-center">
-                <h1 class="text-indigo-600 font-bold text-3xl">PROTFOLIO</h1>
-                <h1 class="text-3xl"> Works & Projects </h1>
-                <p class="1/2 text-center text-gray-400">
-                    This free online course covers effective<br/>communication techniques for teachers and trainers.
-                </p>
+    <div id="work" class="container mx-auto">
+    <!-- top -->
+        <div class="my-auto flex flex-col gap-3 items-center">
+            <h1 class="text-indigo-600 font-bold text-3xl"> PORTFOLIO </h1>
+            <h1 class="text-3xl"> Works & Services </h1>
+            <p class="1/2 text-center text-gray-400">
+                This free online course covers effective<br/> communication techniques for teachers and trainers.
+            </p>
+        </div>
+    <!-- bottom -->
+        <div class="p-5 sm:p-0 flex flex-wrap justify-between">
+            <!-- Card -->
+            <div class="lg:w-1/5 md:w-4/12 shadow-2xl rounded-xl my-3 md:my-10 m-1 ">
+                <img src="./img/item.png" alt="">   
             </div>
-        
+             <!-- Card -->
+             <div class="lg:w-1/5 md:w-4/12 shadow-2xl rounded-xl my-3 md:my-10 m-1 ">
+                <img src="./img/item.png" alt="">   
+            </div>
+             <!-- Card -->
+             <div class="lg:w-1/5 md:w-4/12 shadow-xl rounded-xl my-3 md:my-10 m-1 ">
+                <img src="./img/item.png" alt="">   
+            </div>
+             <!-- Card -->
+             <div class="lg:w-1/5 md:w-4/12 shadow-xl rounded-xl my-3 md:my-10 m-1 ">
+                <img src="./img/item.png" alt="">   
+            </div>
+             <!-- Card -->
+             <div class="lg:w-1/5 md:w-4/12 shadow-xl rounded-xl my-3 md:my-10 m-1 ">
+                <img src="./img/item.png" alt="">   
+            </div>
+             <!-- Card -->
+             <div class="lg:w-1/5 md:w-4/12 shadow-xl rounded-xl my-3 md:my-10 m-1 ">
+                <img src="./img/item.png" alt="">   
+            </div>
+             <!-- Card -->
+             <div class="lg:w-1/5 md:w-4/12 shadow-xl rounded-xl my-3 md:my-10 m-1 ">
+                <img src="./img/item.png" alt="">   
+            </div>
+             <!-- Card -->
+             <div class="lg:w-1/5 md:w-4/12 shadow-xl rounded-xl my-3 md:my-10 m-1 ">
+                <img src="./img/item.png" alt="">   
+            </div>
+        </div>
     </div>
 </div>
+<!-- CONTACT US -->
+    <div>
+        <div id="contact" class="container mx-auto">
+         <!-- top -->
+            <div class="my-auto flex flex-col gap-3 items-center">
+                <h1 class="text-indigo-600 font-bold text-3xl"> PORTFOLIO </h1>
+                <h1 class="text-3xl"> Works & Services </h1>
+                <p class="1/2 text-center text-gray-400">
+                    This free online course covers effective<br/> communication techniques for teachers and trainers.
+                </p>
+            </div>
+        <!-- bottom -->
+            <form action="" class="mt-5 p-8 flex flex-col gap-5 items-center">
+                <input type="text" class="ring-indigo-300 md:w-1/2 rounded-sm ring-2 w-full p-2" placeholder="Surname and Name">
+                <input type="email" class="ring-indigo-300 md:w-1/2 rounded-sm ring-2 w-full p-2" placeholder="Email">
+                <textarea  cols="30" rows="10" class="ring-indigo-300 md:w-1/2 rounded-sm ring-2 w-full p-2" placeholder="Message..."></textarea>
+            <button type="submit" class="w-1/2 bg-indigo-700 font-medium px-3 py-2 md:cursor-pointer rounded-md text-white"> BUTTON </button>
+            </form>
+        </div>
+    </div>
+      <!-- Footer -->
+      <div class="w-full  bg-indigo-900 text-white">
+        <div class="container mx-auto items-center py-5 flex justify-between">
+            <div class="flex items-center gap-2 mx-2">
+                <img class="w-8 text-white" src="./img/logo.png" alt="logo">
+                <span class=" text-2xl font-bold text-white" >Deutsch Lebenslauf </span>
+            </div>
+            <span class="hidden md:block text-xl font-medium text-white"> ♥ Deutsch </span>
+            <div class="flex gap-2 mx-2">
+                <img src="./img/facebook.png" class="w-4 cursor-pointer">
+                <img src="./img/twitter.png" class="w-4 cursor-pointer">
+                <img src="./img/instagram.png" class="w-4 cursor-pointer">
+                <img src="./img/linkedin.png" class="w-4 cursor-pointer">
+            </div>
+        </div>
+    </div>
 
 <script src="./app.js" ></script>
 <script src="./autotyping.js"></script>
